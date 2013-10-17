@@ -1,0 +1,11 @@
+development:
+  email: virthium@gmail.com
+  password: Repina8244
+  
+production:
+  email: virthium@gmail.com
+  password: Repina8244
+
+test:
+  email: virthium@gmail.com
+  password: Repina8244
