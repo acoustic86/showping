@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Showping::Application.config.secret_key_base = 'afa383a623bcef0a37e8ea32a96f8b5a9f36800652264a1844dea594c6b7b69f6cc80497ed4ee1cc11be31ae01ed026d30cfdfc6eeb7d12b9e77672f2747a5d1'
+Showping::Application.config.secret_key_base = Figaro.env.secret_token
